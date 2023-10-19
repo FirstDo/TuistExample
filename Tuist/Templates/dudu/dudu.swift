@@ -13,9 +13,13 @@ let template = Template(
 //      path: "README.md",
 //      contents: "# \(nameAttribute)"
 //    )
+//    .file(
+//      path: "README.md",
+//      templatePath: "README.stencil"
+//    )
     .file(
-      path: "README.md",
-      templatePath: "README.stencil"
+      path: "Project.swift",
+      templatePath: "Project.stencil"
     )
   ]
 )
